@@ -1,4 +1,4 @@
-# Sum Checker
+# Crash Me
 _Этот код идеален! Он никогда не падает._
 
 _`nc crash-me.tasks.2021.ctf.cs.msu.ru 20011`_
