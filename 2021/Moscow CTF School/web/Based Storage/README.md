@@ -12,7 +12,8 @@ return path.resolve(this.dir, Buffer.from(filename).toString('base64'))
 
 Зная, что флаг лежит в /app/flag, пытаемся подобрать такую комбинацию из слэшей, чтобы base64 был валидным и чтобы все байты строки можно было посылать.
 
-*Райтап будет дописан*
+Base64 должен соответствовать regex /(\/)+app(\/)+flag/g и быть валидным.
+
 `
 Flag: MSKCTF{TO BE REDACTED}
 `
