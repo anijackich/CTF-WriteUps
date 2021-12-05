@@ -1,8 +1,7 @@
 from ctypes import CDLL
-import time
 
 libc = CDLL("libc.so.6")
-secs=round(time.time())
+secs = 1638033382
 file = list(open('flag.enc', 'rb').read())
 while True:
     libc.srand(secs)
